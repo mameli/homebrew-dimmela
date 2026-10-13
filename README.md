@@ -1,6 +1,6 @@
 # Homebrew tap for Dimmela
 
-[Dimmela](https://github.com/mameli/Dimmela) is a macOS menu-bar app for dictation: hold `fn+Space`, speak, and the text is pasted where you are typing, transcribed on your Mac.
+[Dimmela](https://dimmela.app) ([source](https://github.com/mameli/Dimmela)) is a macOS menu-bar app for dictation: hold `fn+Space`, speak, and the text is pasted where you are typing, transcribed on your Mac.
 
 ```sh
 brew install --cask mameli/dimmela/dimmela

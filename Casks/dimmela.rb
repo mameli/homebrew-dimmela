@@ -5,7 +5,7 @@ cask "dimmela" do
   url "https://github.com/mameli/Dimmela/releases/download/v#{version}/Dimmela-#{version}.zip"
   name "Dimmela"
   desc "Menu-bar dictation with on-device transcription and optional LLM rewriting"
-  homepage "https://github.com/mameli/Dimmela"
+  homepage "https://dimmela.app"
 
   livecheck do
     url :url
