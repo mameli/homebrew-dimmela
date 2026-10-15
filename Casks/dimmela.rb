@@ -1,6 +1,6 @@
 cask "dimmela" do
-  version "0.1.5"
-  sha256 "7ccd1338cc50475b022dff1e50fc7495df2a0b81ac7eae3cd979ef22929c5e08"
+  version "0.1.6"
+  sha256 "437847febdf9f6bbd9ff4e4557a494a2a6f4ff58c594bda824fd1602305b7b24"
 
   url "https://github.com/mameli/Dimmela/releases/download/v#{version}/Dimmela-#{version}.zip"
   name "Dimmela"
