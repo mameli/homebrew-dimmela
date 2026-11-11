@@ -1,8 +1,8 @@
 cask "dimmela" do
-  version "0.1.7"
-  sha256 "c1ecd444e19b94ff191f69024c6a11a8c081596a7d3886247f9faa8fd71b5622"
+  version "0.2.0"
+  sha256 "31cc603f93a9aeb29d4b92ca52b714fbd087a8e81e4bb57713d299987d6c2fb4"
 
-  url "https://github.com/mameli/Dimmela/releases/download/v#{version}/Dimmela-#{version}.zip"
+  url "https://github.com/mameli/Dimmela/releases/download/v#{version}/Dimmela-#{version}.dmg"
   name "Dimmela"
   desc "Menu-bar dictation with on-device transcription and optional LLM rewriting"
   homepage "https://dimmela.app"
@@ -11,6 +11,8 @@ cask "dimmela" do
     url :url
     strategy :github_latest
   end
+
+  auto_updates true
 
   depends_on arch: :arm64
   depends_on macos: :sequoia
